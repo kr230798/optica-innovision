@@ -1,0 +1,788 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  width: 100%;
+  font-family: "Poppins", sans-serif;;
+  background: white;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  color: #088ac7;
+  font-size: 45px;
+  font-weight: bold;
+  margin: 15px auto;
+}
+.MensajePrincipal{
+  background: #3f9afb;
+  color: white;
+  text-align: center;
+  margin: auto;
+  height: 40px;
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+/* Estilos del Menu completo */
+
+.header{
+  background: white;
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.logo img{
+  width: 200px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+section .content{
+  width: 100%;
+}
+header nav{
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 5px;
+  margin-top: 30px;
+  width: 100%;
+}
+.header li{
+  font-family: "Poppins", sans-serif;;
+  text-transform: uppercase;
+  display: flex;
+  padding: 10px 10px;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  color: #088ac7;
+  transition-duration: 0.1s;
+  border-radius: 15px;
+  
+}
+
+.header .active,
+.header li:hover{
+  text-decoration: underline;
+  font-weight: bold;
+  color: #088ac7;
+  background: white;
+}
+
+.btnexamen img{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: end;
+  border-radius: 3px;
+}
+.btnexamen{
+  justify-content: end;
+  display: flex;
+  border: none;
+  color: #088ac7;
+  padding: 5px 5px; 
+  text-align: center;
+  text-decoration: none; 
+  font-size: 20px; 
+  cursor: pointer;
+  transition-duration: 0.1s; 
+  outline: none;
+  font-weight: bold;
+  margin-top: 30px;
+  width: 30%;
+  margin-right: 20px;
+}
+.btnexamen:hover{
+  text-decoration: underline;
+  color: #06abf7;
+}
+
+
+.page{
+  margin: 10px 0px;
+}
+.page img{
+  width: 100%;
+  margin: auto;
+}
+
+/* Estilos del footer */
+
+footer{
+  text-align: center;
+  margin-top: 50px;
+  background: #f3eeee;
+  padding: 15px 0px;
+}
+
+.redes{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.MR{
+  font-weight: bold;
+}
+
+.redes .instagram, .facebook, .tiktok{
+  padding: 5px 15px;
+}
+.redes img{
+  border-radius: 50px;
+  justify-content: end;
+}
+
+.informacion{
+  display: flex;
+  margin: 10px 50px;
+}
+.direccion{
+  display: block;
+  width: 50%;
+  text-align: left;
+}
+.direccion h4{
+  font-weight: bold;
+  font-size: 22px;
+}
+.horario{
+  display: block;
+  width: 50%;
+  text-align: right;
+}
+.horario h6{
+  font-weight: bold;
+  font-size: 22px;
+  text-align: right;
+}
+.horario img{
+  display: flex;
+  width: 150px;
+  float: right;
+  padding: 10px 0px;
+}
+
+.informacion .calle:hover{
+  text-decoration: underline;
+  color: #088ac7;
+}
+
+/* Estilos pagina contacto y formulario */
+
+form{
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label{
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+form input[type="text"],
+input[type="email"], textarea{
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: rgb(249, 247, 247);
+}
+
+form .error{
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+form .btnEnviarF{
+  background-color: #007bff;
+  margin: 15px auto;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+  width: 100%;
+}
+form .btnEnviarF:hover{
+  background-color: #3f9afb;
+  color: white;
+}
+
+.success-message{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color: #088ac7;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.error-message{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color: rgb(242, 75, 75);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilos slider o Carrusel */
+
+.Carosul{
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+.Carosul img{
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+
+.CarosulSec img{
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.CarosulSec {
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.TituloCarosulSec{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 70px;
+  color: black;
+}
+
+/* Estilos de contenedor de Paquetes en pagina de Inicio */
+
+.PaquetesInicio{
+  margin-top: 25px;
+  display: flex;
+}
+
+.contenedor-paquetes{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #f3eeee;
+}
+
+.contenedor-paquetes img{
+  margin: 35px 45px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.btnVerMas{
+  display: flex;
+  background: #088ac7;
+  margin: auto;
+  color: white;
+  width: 30%;
+  padding: 3px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  justify-content: center;
+}
+.btnVerMas:hover{
+  text-decoration: underline;
+  background-color: white;
+  font-weight: bold;
+  color: #088ac7;
+}
+
+h3{
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+/* Estilos de contenedor Armazones de Inicio */
+.ArmazonesInicio{
+  margin-top: 20px;
+  display: flex;
+}
+.contenedor-paquetes .ArmVogue{
+  margin: auto;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.ArmVogue{
+  justify-content: space-between;
+  width: 100%;
+}
+.ArmVogue img{
+  width: 82%;
+  margin-right: 10px;
+}
+
+/* Estilos de contenedor de Lentes de Contacto en pagina de Inicio */
+.contenedor-lentescontacto{
+  display: flex;
+  margin: 30px 0px;
+}
+.imgPrincipal{
+  display: flex;
+  width: 45%;
+  justify-content: center;
+  
+}
+.imgPrincipal img{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  width: 550px;
+  margin-bottom: 20px;
+}
+.imgSecundaria{
+  width: 25%;
+}
+.imgSecundaria img{
+  margin: auto;
+}
+.PrecioInicio{
+  text-align: center;
+  font-size: 25px;
+  color:#088ac7;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/*Estilos de Pagina de Paquetes */
+
+.ContenedorPaquetes{
+  display: flex;
+  margin: auto; 
+}
+
+.PrimerosPaquetes{
+  width: 50%;
+  display: flex;
+}
+.SegundosPaquetes{
+  width: 50%;
+  display: flex;
+}
+.ContenedorPaquetes img{
+  padding: 15px 0px;
+  justify-content: center;
+}
+.PaqueteEco, .PaqueteEcomas,
+.PaquetePlus, .PaquetePremium {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+}
+.btnMeInteresa{
+  display: flex;
+  background: #088ac7;
+  margin: auto;
+  color: white;
+  width: 50%;
+  padding: 3px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  justify-content: center;
+}
+.btnMeInteresa:hover{
+  text-decoration: underline;
+  background-color: white;
+  font-weight: bold;
+  color: #088ac7;
+}
+.ImagenFinal {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 100%;
+}
+
+.ImagenFinal img {
+  max-width: 100%; 
+  max-height: 100%; 
+}
+
+/*Estilos de Pagina de Lentes de Contacto */
+
+.Contacto{
+  padding: 0px 80px;
+}
+
+.imgPrimerFila{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgPrimerFila img{
+  display: block;
+  transition: transform 0.3s ease;
+}
+.imgPrimerFila img:hover{
+  transform: scale(1.3);
+}
+
+
+.imgUltimaFila{
+  display: flex;
+  justify-content: space-evenly;
+}
+.imgUltimaFila img{
+  display: block;
+  transition: transform 0.3s ease;
+}
+.imgUltimaFila img:hover{
+  transform: scale(1.3);
+}
+
+/* Estilos Marcas y Micas de Disenador en pagina de Inicio */
+
+.Marcas{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+/* Estilos de la pagina Armazones */
+.contenedirImgs{
+  display: flex;
+  margin: 20px;
+}
+
+.contenedirImgs img{
+  width: 90%;
+  margin: auto;
+  transition: 0.3s;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedirImgs img:hover{
+  width: 100%;
+}
+
+.contenedirImgsultimo{
+  display: flex;
+  margin: 20px;
+}
+.contenedirImgsultimo img{
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.3s;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.contenedirImgsultimo img:hover{
+  width: 75%;
+}
+
+/* -------------------------------------- Media query para pantallas Medianas  ------------------------------------------- */
+
+@media (max-width: 1024px) {
+  .container{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .MensajePrincipal{
+    padding: 0px;
+    height: 50px;
+  }
+  
+  /* Esttilos del Menu completo */
+  
+  .header {
+    flex-direction: column;
+    padding: 5px;
+    border-bottom: 2px solid #ccc
+  }
+
+  .logo {
+    margin-bottom: 5px;
+    margin: auto;
+  }
+  .logo img{
+    margin: auto;
+    width: 150px;
+  }
+  .header nav ul {
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: auto;
+    height: 25px;
+  }
+ 
+  .btnexamen{
+    color: rgb(242, 75, 75);
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+   /* Estilos del contenedor de Paquetes  en pagina de Inicio */
+
+  .contenedor-paquetes{
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  .contenedor-paquetes img{
+    width: 90%;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+  }
+   /* Estilos del segundo carrusel  */
+  .CarosulSec{
+    margin: auto;
+    padding-left: 5px;
+  }
+
+   /* Estilos del contenedor de los lentes de contacto en pagina de Inicio */
+  .imgPrincipal{
+    visibility: hidden;
+    width: 0%;
+  }
+  .imgSecundaria{
+    width: 100%;
+    margin: auto;
+  }
+  .imgSecundaria img{
+    margin: auto;
+    padding: 0px 20px;
+  }
+  .btnVerMas{
+    width: 80%;
+    margin: auto ;
+  }
+
+  /* Estilos del contenedor lentes de marca de disenador  en pagina de Inicio */
+  .Marcas{
+    display: flex;
+  }
+  .Marcas img{
+    margin: auto;
+    display: flex;
+  }
+
+  /* Estilos General del footer */
+  .informacion{
+    margin: 10px 5px;
+  }
+
+  /* Estilos de la Pagina de Paquetes */
+  
+  .ContenedorPaquetes{
+    display: block;
+  }
+  .PrimerosPaquetes, .SegundosPaquetes{
+    margin: auto;
+    width: 85%;
+  }
+  .btnMeInteresa{
+    width: 70%;
+    font-size: 12px;
+  }
+  .PrimerosPaquetes .PaqueteEco, .SegundosPaquetes .PaquetePlus{
+    width: 100%;
+    margin-right: 30px;
+  }
+  .PrimerosPaquetes .PaqueteEcomas, .SegundosPaquetes .PaquetePremium{
+    width: 100%;
+    margin-left: 30px;
+  }
+
+   /* Estilos de la Pagina de Lentes de Contacto */
+
+   .Contacto{
+    padding: 0px 20px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .imgPrimerFila{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+  .imgUltimaFila{
+    gap: 10px; 
+  }
+  .contenedorimagenes{
+    flex: 1 1 200px;
+    text-align: center; 
+  }
+  .contenedorimagenes .btnMeInteresa{
+    width: 70%;
+  }
+
+/* Estilos del formulario  */
+  form{
+    margin: 0px 10px;
+  }
+/* Estilos de la Pagina de Armazones  */
+.Armazones{
+  padding: 0px 10px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.contenedirImgs{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+.Img{
+  flex: 1 1 200px;
+  text-align: center; 
+}
+
+}
+
+/* ----------------------- Media query para pantallas más pequeñas ------------------------ */
+
+@media (max-width: 600px) {
+
+  h1{
+    text-align: center;
+    color: #088ac7;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px auto;
+  }
+  .MensajePrincipal{
+    font-weight: normal;
+  }
+  .TituloCarosulSec{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: black;
+  }
+  h3{
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 15px;
+  }
+  .btnVerMas{
+    width: 60%;
+    margin: auto ;
+    font-size: 12px;
+  }
+  .horario img{
+    visibility: hidden;
+    width: 0%;
+  }
+  footer{
+    font-size: 12px;
+  }
+  .contenedor-lentescontacto{
+    display: flex;
+    margin: 00px 0px;
+  }
+ 
+  .Marcas{
+    width: 380px;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  /* Estilos de la Pagina de Lentes de Contacto */
+
+  .Contacto{
+    padding: 0px 10px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .imgPrimerFila{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; 
+  }
+  .imgUltimaFila{
+    gap: 8px; 
+  }
+  .contenedorimagenes{
+    flex: 1 1 150px;
+    text-align: center; 
+  }
+  .contenedorimagenes .btnMeInteresa{
+    width: 60%;
+  }
+  /* Estilos de la Pagina de Armazones  */
+
+.Armazones{
+  padding: 0px 8px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.contenedirImgs{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; 
+}
+.Img{
+  flex: 1 1 150px;
+  text-align: center; 
+}
+
+}
