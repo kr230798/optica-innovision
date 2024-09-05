@@ -9,7 +9,7 @@ const HeaderNav = () => {
   return (
     <header className="header">
         <div className="logo">
-            <a href="/"><img src="Iconoazul.png"></img></a>   
+            <a href="/"><img src="Icono.png"></img></a>   
         </div>
       
       <nav>

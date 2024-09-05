@@ -9,19 +9,19 @@ const ArmazonesInicio = () => {
     <div className="contenedor-paquetes" >
         <div className="ArmVogue">
             <img src="./images/Vogue1.jpg" alt="vogue"></img>
-            <Link className="btnVerMas" to="/armazones" onClick={handleClick}>Ver mas</Link >
+            <Link className="btnVerMas" to="/armazones" onClick={handleClick}>Ver más</Link >
         </div>
         <div className="ArmVogue">
             <img src="./images/vogue2.jpg" alt="vogue"></img>
-            <Link className="btnVerMas" to="/armazones" onClick={handleClick}>Ver mas</Link>
+            <Link className="btnVerMas" to="/armazones" onClick={handleClick}>Ver más</Link>
         </div>
         <div className="ArmVogue">
             <img src="./images/vogue3.jpg" alt="vogue"></img>
-            <Link className="btnVerMas" to="/armazones" onClick={handleClick}>Ver mas</Link>
+            <Link className="btnVerMas" to="/armazones" onClick={handleClick}>Ver más</Link>
         </div>
         <div className="ArmVogue">
             <img src="./images/vogue4.jpg" alt="vogue"></img>
-            <Link className="btnVerMas" to="/armazones" onClick={handleClick}>Ver mas</Link>
+            <Link className="btnVerMas" to="/armazones" onClick={handleClick}>Ver más</Link>
         </div>
     </div>
   )

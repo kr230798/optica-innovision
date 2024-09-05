@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="horario">
                 <h6>Horarios</h6>
                 <p>L-V De: 10:30 a 19:00 hrs</p> <p>Sáb De: 10:00 a 15:00 hrs</p>
-                <a href="/"><img src="Iconoazul.png"></img></a> 
+                <a href="/"><img src="Icono.png"></img></a> 
             </div>
         </div>
         

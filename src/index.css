@@ -47,7 +47,7 @@ h1{
   justify-content: center;
 }
 .logo img{
-  width: 200px;
+  width: 100px;
   margin-top: 15px;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -104,6 +104,8 @@ header nav ul{
 .btnexamen{
   justify-content: end;
   display: flex;
+  text-align: center;
+  align-items: center;
   border: none;
   color: #088ac7;
   padding: 5px 5px; 
@@ -184,7 +186,7 @@ footer{
 }
 .horario img{
   display: flex;
-  width: 150px;
+  width: 100px;
   float: right;
   padding: 10px 0px;
 }
@@ -555,7 +557,7 @@ h3{
   }
   .logo img{
     margin: auto;
-    width: 150px;
+    width: 100px;
   }
   .header nav ul {
     margin-top: 0px;
